@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
-    "start": "next start",
+    "build": "next build",
+    "start": "node server.js",
     "seed": "node --import tsx scripts/seed.ts",
     "seed:leads": "node --import tsx scripts/seed-leads.ts",
     "lint": "eslint",
